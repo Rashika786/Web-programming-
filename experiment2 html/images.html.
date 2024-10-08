@@ -1,0 +1,20 @@
+
+<html>
+<head>
+    <title>college images</title>
+</head>
+<body>
+    <h1><center>our college images</center></h1>
+    <p>Here are some images from our school activities.</p>
+    
+    <img src="/home/ksb/maindoor.jpeg" alt="campus" width="300">
+    <p>this is the main college building.<br>
+    <img src="/home/ksb/kmct.webp" alt="main gate" width="300">
+    <p>this is the main gate.</p>
+    <h2>Back to <a href="mainPage.html">Main Page</a></h2>
+    <h2>move to<a href="about.html">About us</a></h2>
+    <h2>view the<a href="timetable.html">time table</a></h2>
+     <h2>move to<a href="contact.html">contact us</a></h2>
+	
+</body>
+</html>
