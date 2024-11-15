@@ -1,0 +1,25 @@
+
+<html>
+<head>
+    <title>Sum of 10 Numbers</title>
+</head>
+<body>
+
+    <h1>Find the Sum of 10 Numbers</h1>
+    <p>Click the button below to start entering numbers.</p>
+    <button onclick="calculateSum()">Start Entering Numbers</button>
+
+    <script>
+        function calculateSum() {
+            let sum = 0; 
+            for (let i = 1; i <= 10; i++) {
+                let num = prompt("Enter number " + i + ":");
+                sum += parseFloat(num);
+            }
+            alert("The sum of the 10 numbers is: " + sum);
+        }
+    </script>
+
+</body>
+</html>
+

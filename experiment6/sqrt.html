@@ -1,0 +1,24 @@
+
+<html>
+<head>
+  
+    <title>Square Root Calculator</title>
+    <script>
+        function calculateSquareRoot() {
+            let num = parseFloat(document.getElementById("number").value);
+            if (num < 0) {
+                document.getElementById("result").innerText = "Enter a non-negative number.";
+            } else {
+                document.getElementById("result").innerText = "Square root: " + Math.sqrt(num);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Square Root Calculator</h1>
+    <input type="number" id="number" />
+    <button onclick="calculateSquareRoot()">Calculate</button>
+    <p id="result"></p>
+</body>
+</html>
+

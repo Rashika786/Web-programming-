@@ -1,0 +1,33 @@
+
+<html >
+<head>
+    <title>Prime Numbers in Interval</title>
+    <script>
+        function isPrime(num) {
+            if (num <= 1) return false;
+            for (let i = 2; i < num; i++) {
+                if (num % i === 0) return false;
+            }
+            return true;
+        }
+
+        function printPrimes() {
+            const start = +document.getElementById("start").value;
+            const end = +document.getElementById("end").value;
+            let primes = [];
+            for (let i = start; i <= end; i++) {
+                if (isPrime(i)) primes.push(i);
+            }
+            document.getElementById("result").textContent = primes.length ? primes.join(", ") : "No primes found";
+        }
+    </script>
+</head>
+<body>
+    <h1>Prime Numbers in an Interval</h1>
+    <input type="number" id="start" placeholder="Start">
+    <input type="number" id="end" placeholder="End">
+    <button onclick="printPrimes()">Find Primes</button>
+    <p id="result"></p>
+</body>
+</html>
+
