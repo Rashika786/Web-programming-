@@ -1,0 +1,18 @@
+<html>
+<body>
+<h1 id="txt">IMAGE</h1>
+<img id ="img1" onmouseover="myfunction1()" onmouseout="myfunction2()" src="computer2.jpeg">
+<script>
+function myfunction1()
+{
+  document.getElementById("img1").src="computer.jpeg";
+  document.getElementById("txt").innerHTML="COMPUTER 1";
+}
+function myfunction2()
+{
+  document.getElementById("img1").src="computer2.jpeg";
+  document.getElementById("txt").innerHTML="COMPUTER 2";
+}
+</script>
+</body>
+</html>
