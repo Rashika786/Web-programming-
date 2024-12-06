@@ -1,0 +1,139 @@
+<html>
+<head>
+<script>
+function exam() {
+  var m = 0;
+
+  // Question 1
+  if (document.examForm.one.value == "b tag") {
+    m = m + 1;
+  }
+
+  // Question 2
+  if (document.examForm.two.value == "6") {
+    m = m + 1;
+  }
+
+  // Question 3
+  if (document.examForm.three.value == "u tag") {
+    m = m + 1;
+  }
+
+  // Question 4
+  if (document.examForm.four.value == "a tag") {
+    m = m + 1;
+  }
+
+  // Question 5
+  if (document.examForm.five.value == "img tag") {
+    m = m + 1;
+  }
+
+  // Question 6
+  if (document.examForm.six.value == "div tag") {
+    m = m + 1;
+  }
+
+  // Question 7
+  if (document.examForm.seven.value == "table tag") {
+    m = m + 1;
+  }
+
+  // Question 8
+  if (document.examForm.eight.value == "form tag") {
+    m = m + 1;
+  }
+
+  // Question 9
+  if (document.examForm.nine.value == "br tag") {
+    m = m + 1;
+  }
+
+  // Question 10
+  if (document.examForm.ten.value == "meta tag") {
+    m = m + 1;
+  }
+
+  // Displaying the score
+  alert("Thank You for taking the online exam! \nYour score is: " + m + " out of 10");
+  return false;
+}
+</script>
+</head>
+<body bgcolor="lime">
+<form name="examForm" onsubmit="return exam()" method="get">
+<h2><center><u>ONLINE EXAM FORM</u></center></h2>
+Enter your name: <input type="text" name="nm"><br><br>
+Enter your stream: <input type="text" name="st"><br><br>
+
+<p>
+1) Which tag is used for making any text bold?<br>
+ <input type="radio" name="one" value="b tag"> b tag<br>
+ <input type="radio" name="one" value="h tag"> h tag<br>
+</p>
+
+<p>
+2) How many heading tags are there in HTML?<br>
+ <input type="radio" name="two" value="2"> 2<br>
+ <input type="radio" name="two" value="6"> 6<br>
+</p>
+
+<p>
+3) Which tag is used to underline the text?<br>
+ <input type="radio" name="three" value="u tag"> u tag<br>
+ <input type="radio" name="three" value="h1"> h1<br>
+</p>
+
+<p>
+4) Which tag is used to create a link?<br>
+ <input type="radio" name="four" value="a tag"> a tag<br>
+ <input type="radio" name="four" value="p tag"> p tag<br>
+</p>
+
+<p>
+5) Which tag is used to display images?<br>
+ <input type="radio" name="five" value="img tag"> img tag<br>
+ <input type="radio" name="five" value="h1"> h1<br>
+</p>
+
+<p>
+6) Which tag is used to create a division in HTML?<br>
+ <input type="radio" name="six" value="div tag"> div tag<br>
+ <input type="radio" name="six" value="table tag"> table tag<br>
+</p>
+
+<p>
+7) Which tag is used for creating a table?<br>
+ <input type="radio" name="seven" value="table tag"> table tag<br>
+ <input type="radio" name="seven" value="tr tag"> tr tag<br>
+</p>
+
+<p>
+8) Which tag is used to create an HTML form?<br>
+ <input type="radio" name="eight" value="form tag"> form tag<br>
+ <input type="radio" name="eight" value="a tag"> a tag<br>
+</p>
+
+<p>
+9) Which tag is used to insert a line break?<br>
+ <input type="radio" name="nine" value="br tag"> br tag<br>
+ <input type="radio" name="nine" value="p tag"> p tag<br>
+</p>
+
+<p>
+10) Which tag is used to define metadata about the document?<br>
+ <input type="radio" name="ten" value="meta tag"> meta tag<br>
+ <input type="radio" name="ten" value="link tag"> link tag<br>
+</p>
+
+<p>
+<center>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset"/><br>
+</center>
+</p>
+
+</form>
+</body>
+</html>
+
