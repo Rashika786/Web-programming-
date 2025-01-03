@@ -4,11 +4,11 @@ $t = $name;
 echo "Displaying using print_r <br>";
 print_r($name);
 echo "<br><br>";
-echo "Sorting using asort() <br>";
+echo "sorted in ascending(asort) <br>";
 asort($name);
 print_r($name);
 echo "<br><br>";
-echo "Sorting using arsort() <br>";
+echo "sorted in descending(arsort) <br>";
 arsort($t);
 print_r($t);
 ?>
